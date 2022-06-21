@@ -1,0 +1,6 @@
+@JsonProperty("name_host")  
+ObjectMapper Obj = new ObjectMapper();
+  String jsonStr = Obj.writeValueAsString(tesst);
+=========================
+ @SerializedName("name_host")
+new Gson().toJson(tesst)
