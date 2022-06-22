@@ -4,3 +4,8 @@ ObjectMapper Obj = new ObjectMapper();
 =========================
  @SerializedName("name_host")
 new Gson().toJson(tesst)
+==========================
+implements Serializable
+===========================
+@JsonIgnoreProperties(ignoreUnknown = true)
+
